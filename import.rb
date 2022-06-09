@@ -28,7 +28,6 @@ class Import
   def row_validation(row)
     valid_numbers = row.any? { |i| !number?(i) || negative?(i.to_i) }
     throw StandardError.new('only allow numbers, 0 and negative not valid') if valid_numbers
-    # throw StandardError.new('dont allow 0 or negative numbers') if row.any? { |i| i.to_i <= 0 }
     throw StandardError.new('columns should have same size for each row') if column_size && row.length != column_size
     row.map(&:to_i)
   end
