@@ -7,7 +7,8 @@
 4) you also can download the repository manually by hit click on "code" button options and then hit click on download zip button
 5) cd league (go to the downloaded project in your terminal)
 6) run *bundle install* 
-7) run *rspec*
+7) open the file *spec/main_spec.rb* and change the path value to your own path where the csv file is place
+8) run *rspec*
 
 at this point you should see these points
 
