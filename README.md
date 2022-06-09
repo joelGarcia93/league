@@ -4,9 +4,10 @@
 1) open a terminal
 2) cd your_path (choose the folder where you want to download the repository)
 3) git clone git@github.com:joelGarcia93/league.git
-4) cd league (go to the project in your terminal)
-5) run *bundle install* 
-6) run *rspec*
+4) you also can download the repository manually by hit click on "code" button options and then hit click on download zip button
+5) cd league (go to the downloaded project in your terminal)
+6) run *bundle install* 
+7) run *rspec*
 
 at this point you should see these points
 
